@@ -1,0 +1,9 @@
+{
+  "type": "commonjs",
+  "dependencies": {
+    "canvas": "^2.9.0",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.16.1",
+    "rgb-hex": "^4.0.0"
+  }
+}
