@@ -1,6 +1,6 @@
 
-let filename = './json/relax.json'
-let readfrom = './pngs/watever.png'
+let filename = './json/11736.json'
+let readfrom = './pngs/11736.jpg'
 
 const Jimp = require('jimp');
 const fs = require('fs');
@@ -18,7 +18,7 @@ function RGBToHex(r,g,b) {
     if (b.length == 1)
       b = "0" + b;
   
-    return "#" + r + g + b;
+    return r + g + b;
   }
 
 

@@ -36,7 +36,7 @@ const context = canvas.getContext("2d")
 let x = 0
 let y = 0
 for (const color of jsi.pixels) {
-    context.fillStyle = color
+    context.fillStyle = '#' + color
     context.fillRect(x,y,1,1)
     x = x + 1
     if (x === width) {
